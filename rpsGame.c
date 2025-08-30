@@ -1,3 +1,4 @@
+//ROCK PAPER SCISSORS GAME in C.
 #include <stdio.h>
 #include <time.h>
 #include <stdlib.h>
@@ -87,4 +88,5 @@ void checkWinner(int userChoice, int compChoice){
     }
 
 }
+
 
