@@ -1,3 +1,4 @@
+//QUIZ GAME in C.
 #include <stdio.h>
 #include <ctype.h>
 
@@ -48,4 +49,5 @@ int main(){
     printf("Your score is %d out of %d points", score, size);
     
     return 0;
+
 }
