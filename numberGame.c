@@ -1,3 +1,4 @@
+//NUMBER GAME in C.
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -37,4 +38,5 @@ int main(){
     printf("You've used %d tries.\n", tries);
  
     return 0;
+
 }
