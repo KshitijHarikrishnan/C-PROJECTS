@@ -56,7 +56,9 @@ int main(){
             printf("%d ", C[i][j]);    
         }
         printf("\n");
-}
+    }
+
+    return 0;
 }
 
 int add(int a[M][N], int b[M][N], int c[M][N]){
@@ -65,4 +67,5 @@ int add(int a[M][N], int b[M][N], int c[M][N]){
                 c[i][j] = a[i][j] + b[i][j];
         }
     }
+
 }
