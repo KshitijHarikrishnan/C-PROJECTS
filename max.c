@@ -16,8 +16,8 @@ int main(){
         array[i] = rand() % (max-min+1) + min;
         printf("%d, ", array[i]); //initating 4 random values in an array and printing them
 
-        if(array[0] < array[i]){ // use '>' to display the largest number and
-                                 //     '<' to display the smallest number
+        if(array[0] < array[i]){ // use '<' to display the largest number and
+                                 //     '>' to display the smallest number
             array[0] = array[i];
         }
     }
