@@ -30,6 +30,7 @@ int main(){
     
     if(number == 1 || number == 0){
         printf("Neither Prime nor Compposite.");
+        return 0;
     }
 
     for(int i = 1; i<=number; i++){
@@ -49,6 +50,7 @@ int main(){
         return 0;
 
     }
+
 
 
 
